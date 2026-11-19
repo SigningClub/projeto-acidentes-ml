@@ -1,0 +1,34 @@
+{
+  "regra_frontal_ou_pedestre": {
+    "precisao": 0.29467607440667093,
+    "recall": 0.44096755615281247,
+    "f1": 0.35327591510304523,
+    "fatais_reais": 5209,
+    "previstos_fatais": 7795,
+    "acertos": 2297
+  },
+  "modelo": {
+    "precisao": 0.3905693950177936,
+    "recall": 0.42138606258398925,
+    "f1": 0.4053929264013298,
+    "fatais_reais": 5209,
+    "previstos_fatais": 5620,
+    "acertos": 2195
+  },
+  "modelo_dentro_frontal_pedestre": {
+    "precisao": 0.4067902520308269,
+    "recall": 0.8502394427514149,
+    "f1": 0.5502958579881657,
+    "fatais_reais": 2297,
+    "previstos_fatais": 4801,
+    "acertos": 1953
+  },
+  "modelo_outros_tipos": {
+    "precisao": 0.2954822954822955,
+    "recall": 0.0831043956043956,
+    "f1": 0.1297239346019834,
+    "fatais_reais": 2912,
+    "previstos_fatais": 819,
+    "acertos": 242
+  }
+}

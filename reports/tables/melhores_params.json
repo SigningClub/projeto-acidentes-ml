@@ -1,0 +1,23 @@
+{
+  "xgb": {
+    "subsample": 0.7,
+    "reg_lambda": 5.0,
+    "pesos": "balanceado",
+    "n_estimators": 500,
+    "min_child_weight": 5,
+    "max_depth": 8,
+    "learning_rate": 0.03,
+    "colsample_bytree": 0.8
+  },
+  "lr": {
+    "pesos": "nenhum",
+    "C": 10.0
+  },
+  "rf": {
+    "pesos": "balanceado",
+    "n_estimators": 200,
+    "min_samples_leaf": 10,
+    "max_features": 0.3,
+    "max_depth": null
+  }
+}

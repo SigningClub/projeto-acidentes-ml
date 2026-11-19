@@ -1,0 +1,69 @@
+{
+  "gerado_em": "2026-11-19T18:23:50+00:00",
+  "origem": "Cópias públicas no GitHub dos arquivos oficiais da PRF (download direto do Google Drive bloqueado no ambiente de execução). Ver data/README.md.",
+  "arquivos": [
+    {
+      "ano": 2017,
+      "arquivo": "datatran2017.csv",
+      "bytes": 24026333,
+      "sha256": "cae37da7eaf02054742e81ee35ee42bffb8be5cf7de09195989d9bcebf24dfd2",
+      "espelho_github": "FelipeGBarreto/analise_cluster_acidentes_rodovias_federais"
+    },
+    {
+      "ano": 2018,
+      "arquivo": "datatran2018.csv",
+      "bytes": 18803451,
+      "sha256": "534a871ed0a4e0b520f835454054d189b377d7a6740b1cc94cd85f456e273302",
+      "espelho_github": "FelipeGBarreto/analise_cluster_acidentes_rodovias_federais"
+    },
+    {
+      "ano": 2019,
+      "arquivo": "datatran2019.csv",
+      "bytes": 18129710,
+      "sha256": "c637bc90ef9219094fc222b4e842f48b6dfca79b653762a04d9d0e9735e47227",
+      "espelho_github": "FelipeGBarreto/analise_cluster_acidentes_rodovias_federais"
+    },
+    {
+      "ano": 2020,
+      "arquivo": "datatran2020.csv",
+      "bytes": 17191029,
+      "sha256": "0dd230c2661c7472fa8860271af50a76bb33b9bbe6fc6118e72aeff1ae6f6c7f",
+      "espelho_github": "FelipeGBarreto/analise_cluster_acidentes_rodovias_federais"
+    },
+    {
+      "ano": 2021,
+      "arquivo": "datatran2021.csv",
+      "bytes": 18029712,
+      "sha256": "3f256f14a946b095672aad2a179ba2479c6d676948b5f0b0ad350646a7c47a86",
+      "espelho_github": "FelipeGBarreto/analise_cluster_acidentes_rodovias_federais"
+    },
+    {
+      "ano": 2022,
+      "arquivo": "datatran2022.csv",
+      "bytes": 18723306,
+      "sha256": "d11bbfdec9b5df6f08a083c63acb2c1b4d3bad71d31481d7ce1368d5fa38783a",
+      "espelho_github": "LeticiaHms/mack-car-crash-prediction"
+    },
+    {
+      "ano": 2023,
+      "arquivo": "datatran2023.csv",
+      "bytes": 19770946,
+      "sha256": "2e6a9eac714524822fc3150be4d0614e27c7f14aa674520c94e5d2e4089356dd",
+      "espelho_github": "LeticiaHms/mack-car-crash-prediction"
+    },
+    {
+      "ano": 2024,
+      "arquivo": "datatran2024.csv",
+      "bytes": 21644260,
+      "sha256": "a3b7423cf643acd5de12742f319d5456930b1f105b44df4b81fae560b40af64c",
+      "espelho_github": "Alli-will/content-datatran2024"
+    },
+    {
+      "ano": 2025,
+      "arquivo": "datatran2025.csv",
+      "bytes": 21070906,
+      "sha256": "0f340d8b122cfbbf87798dca7bbc1984f73502d4971d0481b4f370705b400e4c",
+      "espelho_github": "Nickolas3211/datatran2025"
+    }
+  ]
+}

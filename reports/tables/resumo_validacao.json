@@ -1,0 +1,196 @@
+{
+  "dummy_A": {
+    "validacao_2024": {
+      "f1_macro_argmax": 0.2895080775506732,
+      "pr_auc_fatais": 0.0713826806096644,
+      "roc_auc_macro": 0.5,
+      "f1_macro_ajustado": 0.2895080775506732
+    },
+    "pesos_limiar": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "params": {}
+  },
+  "lr_A": {
+    "validacao_2024": {
+      "f1_macro_argmax": 0.4527038282003224,
+      "pr_auc_fatais": 0.3203515667389371,
+      "roc_auc_macro": 0.7656155139535894,
+      "f1_macro_ajustado": 0.5430203607290066
+    },
+    "pesos_limiar": [
+      2.627,
+      1.0,
+      2.847
+    ],
+    "params": {
+      "pesos": "nenhum",
+      "C": 10.0
+    }
+  },
+  "rf_A": {
+    "validacao_2024": {
+      "f1_macro_argmax": 0.5053637410210807,
+      "pr_auc_fatais": 0.32706963505814396,
+      "roc_auc_macro": 0.7679072633168383,
+      "f1_macro_ajustado": 0.5530720598178543
+    },
+    "pesos_limiar": [
+      0.725,
+      1.0,
+      0.447
+    ],
+    "params": {
+      "pesos": "balanceado",
+      "n_estimators": 200,
+      "min_samples_leaf": 10,
+      "max_features": 0.3,
+      "max_depth": null
+    }
+  },
+  "xgb_A": {
+    "validacao_2024": {
+      "f1_macro_argmax": 0.48649553590651795,
+      "pr_auc_fatais": 0.3447915937446311,
+      "roc_auc_macro": 0.777465454233082,
+      "f1_macro_ajustado": 0.5610827130342236
+    },
+    "pesos_limiar": [
+      0.569,
+      1.0,
+      0.324
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 5.0,
+      "pesos": "balanceado",
+      "n_estimators": 500,
+      "min_child_weight": 5,
+      "max_depth": 8,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.8
+    }
+  },
+  "dummy_B": {
+    "validacao_2024": {
+      "f1_macro_argmax": 0.2895080775506732,
+      "pr_auc_fatais": 0.0713826806096644,
+      "roc_auc_macro": 0.5,
+      "f1_macro_ajustado": 0.2895080775506732
+    },
+    "pesos_limiar": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "params": {}
+  },
+  "lr_B": {
+    "validacao_2024": {
+      "f1_macro_argmax": 0.30443703149389445,
+      "pr_auc_fatais": 0.17404313671226826,
+      "roc_auc_macro": 0.661259653625159,
+      "f1_macro_ajustado": 0.43580740801049767
+    },
+    "pesos_limiar": [
+      3.344,
+      1.0,
+      5.0
+    ],
+    "params": {
+      "pesos": "nenhum",
+      "C": 10.0
+    }
+  },
+  "rf_B": {
+    "validacao_2024": {
+      "f1_macro_argmax": 0.41364727409833385,
+      "pr_auc_fatais": 0.17592118095156878,
+      "roc_auc_macro": 0.6605417482842261,
+      "f1_macro_ajustado": 0.43756387537427366
+    },
+    "pesos_limiar": [
+      0.786,
+      1.0,
+      0.617
+    ],
+    "params": {
+      "pesos": "balanceado",
+      "n_estimators": 200,
+      "min_samples_leaf": 10,
+      "max_features": 0.3,
+      "max_depth": null
+    }
+  },
+  "xgb_B": {
+    "validacao_2024": {
+      "f1_macro_argmax": 0.3966380474266753,
+      "pr_auc_fatais": 0.18610122247031988,
+      "roc_auc_macro": 0.6660439691674483,
+      "f1_macro_ajustado": 0.44403875337905224
+    },
+    "pesos_limiar": [
+      0.786,
+      1.0,
+      0.525
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 5.0,
+      "pesos": "balanceado",
+      "n_estimators": 500,
+      "min_child_weight": 5,
+      "max_depth": 8,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.8
+    }
+  },
+  "xgb_C": {
+    "validacao_2024": {
+      "f1_macro_argmax": 0.5073969980911306,
+      "pr_auc_fatais": 0.3589612615986575,
+      "roc_auc_macro": 0.7913630051889728,
+      "f1_macro_ajustado": 0.5755033326057133
+    },
+    "pesos_limiar": [
+      0.617,
+      1.0,
+      0.324
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 5.0,
+      "pesos": "balanceado",
+      "n_estimators": 500,
+      "min_child_weight": 5,
+      "max_depth": 8,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.8
+    }
+  },
+  "xgb_A_pessoas": {
+    "validacao_2024": {
+      "f1_macro_argmax": 0.5012635666500641,
+      "pr_auc_fatais": 0.3506732625226012,
+      "roc_auc_macro": 0.7922577887574668,
+      "f1_macro_ajustado": 0.5734569061548668
+    },
+    "pesos_limiar": [
+      0.525,
+      1.0,
+      0.324
+    ],
+    "params": {
+      "subsample": 0.7,
+      "reg_lambda": 5.0,
+      "pesos": "balanceado",
+      "n_estimators": 500,
+      "min_child_weight": 5,
+      "max_depth": 8,
+      "learning_rate": 0.03,
+      "colsample_bytree": 0.8
+    }
+  }
+}

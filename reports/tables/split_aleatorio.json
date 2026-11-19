@@ -1,0 +1,7 @@
+{
+  "split": "aleatório estratificado 80/20 (2019-2025)",
+  "n_teste": 94713,
+  "f1_macro_argmax": 0.4868875367260462,
+  "pr_auc_fatais": 0.3357276851476288,
+  "roc_auc_macro": 0.767222027948924
+}

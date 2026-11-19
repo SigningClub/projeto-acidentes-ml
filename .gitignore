@@ -1,0 +1,17 @@
+# Dados (baixar com: python -m src.data_processing --baixar)
+data/raw/*.csv
+data/raw/*.zip
+data/processed/
+# Modelos grandes e saídas volumosas
+models/*.joblib
+reports/predicoes_teste_2025.parquet
+logs/
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.env
+.DS_Store
