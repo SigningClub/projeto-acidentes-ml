@@ -1,54 +1,52 @@
-# Roteiro do pitch gravado (≈ 19 minutos)
+# Roteiro do pitch gravado — narrador único (≈ 18 min 50 s)
 
 Slides: [Pitch — Previsão da Gravidade de Acidentes (PRF)](https://claude.ai/artifact/NRDx4Rq8DkYP8fcKxqqxhQ). O texto de cada slide abaixo é o mesmo das notas do apresentador.
 
-- **Formato:** gravação de tela (Meet, Teams ou OBS) com os slides em modo apresentação. Durante o slide 10, mostrem o repositório.
-- **Divisão:** 3 integrantes. Com 4, o Integrante 4 assume os slides 12–14, e o Integrante 3 fica com 15–17.
-- **Antes de gravar:** troquem os marcadores **[Integrante N]** e **[link do repositório no GitHub]** nos slides 1 e 20.
-- **Números:** todos estão no `README.md` e em `reports/resultados.md`. Falem como estão escritos aqui.
+- **Formato:** uma única pessoa narra todos os slides, em gravação de tela (Meet, Teams ou OBS), com os slides em modo apresentação. Durante o slide 10, mostre o repositório.
+- **Antes de gravar:** preencha **[nome do narrador]** e **[nomes dos integrantes]** na fala do slide 1. Nos slides 1 e 20, troque **[Integrante N]** pelos nomes dos autores e coloque o link do repositório.
+- **Números:** todos estão no `README.md` e em `reports/resultados.md`. Leia-os como estão escritos aqui.
+- **Atenção:** o enunciado da disciplina pede um pitch “onde todos falam”. Se o grupo optar por um só narrador, vale confirmar antes com o professor.
 
-| Slide | Título | Quem | Tempo |
-| --- | --- | --- | --- |
-| 1 | Previsão da gravidade de acidentes em rodovias federais | Integrante 1 | ~40 s |
-| 2 | Dá para prever, no acionamento da PRF, se um acidente será fatal? | Integrante 1 | ~1 min |
-| 3 | Canvas de abertura do projeto | Integrante 1 | ~1 min |
-| 4 | 632 mil acidentes, um por linha, sem dados pessoais | Integrante 1 | ~50 s |
-| 5 | Acidentes sem vítimas saíram da base depois de 2015 | Integrante 1 | ~1 min 10 s |
-| 6 | Frontal e atropelamento: 28% fatais | Integrante 2 | ~50 s |
-| 7 | Hora, via e região também importam | Integrante 2 | ~1 min |
-| 8 | Só entra o que se sabe no acionamento | Integrante 2 | ~1 min 10 s |
-| 9 | Treino no passado, teste no futuro | Integrante 2 | ~1 min 10 s |
-| 10 | Cinco módulos, seis notebooks e testes | Integrante 2 | ~1 min 20 s |
-| 11 | Três modelos e uma métrica principal | Integrante 2 | ~1 min |
-| 12 | 0,561 — F1-macro do XGBoost | Integrante 3 | ~30 s |
-| 13 | XGBoost lidera, por margem pequena | Integrante 3 | ~1 min |
-| 14 | Acha 42% dos fatais, com 39% de precisão | Integrante 3 | ~1 min |
-| 15 | O tipo de acidente faz a diferença | Integrante 3 | ~1 min |
-| 16 | O limite: fora de frontal e atropelamento | Integrante 3 | ~1 min 10 s |
-| 17 | Varia por UF; probabilidades a recalibrar | Integrante 3 | ~1 min |
-| 18 | O que concluímos | Integrante 1 | ~50 s |
-| 19 | Limitações e ponte para o TCC | Integrante 1 | ~50 s |
-| 20 | Perguntas? | Integrante 1 | ~20 s |
+| Slide | Título | Tempo |
+| --- | --- | --- |
+| 1 | Previsão da gravidade de acidentes em rodovias federais | ~40 s |
+| 2 | Dá para prever, no acionamento da PRF, se um acidente será fatal? | ~1 min |
+| 3 | Canvas de abertura do projeto | ~1 min |
+| 4 | 632 mil acidentes, um por linha, sem dados pessoais | ~50 s |
+| 5 | Acidentes sem vítimas saíram da base depois de 2015 | ~1 min 10 s |
+| 6 | Frontal e atropelamento: 28% fatais | ~50 s |
+| 7 | Hora, via e região também importam | ~1 min |
+| 8 | Só entra o que se sabe no acionamento | ~1 min 10 s |
+| 9 | Treino no passado, teste no futuro | ~1 min 10 s |
+| 10 | Cinco módulos, seis notebooks e testes | ~1 min 20 s |
+| 11 | Três modelos e uma métrica principal | ~1 min |
+| 12 | 0,561 — F1-macro do XGBoost | ~30 s |
+| 13 | XGBoost lidera, por margem pequena | ~1 min |
+| 14 | Acha 42% dos fatais, com 39% de precisão | ~1 min |
+| 15 | O tipo de acidente faz a diferença | ~1 min |
+| 16 | O limite: fora de frontal e atropelamento | ~1 min 10 s |
+| 17 | Varia por UF; probabilidades a recalibrar | ~1 min |
+| 18 | O que concluímos | ~50 s |
+| 19 | Limitações e ponte para o TCC | ~50 s |
+| 20 | Perguntas? | ~20 s |
 
-Tempos por integrante: Integrante 1 ≈ 6 min 40 s (slides 1–5 e 18–20) · Integrante 2 ≈ 6 min 30 s (6–11) · Integrante 3 ≈ 5 min 40 s (12–17).
+**Total estimado:** cerca de 18 min 50 s (mínimo exigido: 15 min).
 
 ---
 
-### Slide 1 — Previsão da gravidade de acidentes em rodovias federais
+## Abertura e problema
 
-**Integrante 1 · ~40 s**
+### Slide 1 — Previsão da gravidade de acidentes em rodovias federais (~40 s)
 
-Olá, professor. Somos [nomes do grupo] e vamos apresentar o projeto final da disciplina Machine Learning — Práticas e Projetos.
+Olá, professor. Sou [nome do narrador] e apresento, em nome do grupo formado por [nomes dos integrantes], o projeto final da disciplina Machine Learning — Práticas e Projetos.
 
 O tema é a previsão da gravidade de acidentes de trânsito nas rodovias federais, usando os dados abertos da Polícia Rodoviária Federal.
 
-Eu vou falar do problema e dos dados; [Integrante 2] apresenta a análise exploratória, a metodologia e o código; e [Integrante 3] mostra os resultados e a interpretação. No fim eu volto para as conclusões e a ponte para o TCC.
+Vou passar pelo problema e pelos dados, pela análise exploratória, pela metodologia e pelo código, pelos resultados e, no fim, pelas conclusões e pela ponte para o TCC.
 
 Todo o código, os notebooks, o Canvas e o README com os resultados estão no repositório, cujo link aparece no último slide.
 
-### Slide 2 — Dá para prever, no acionamento da PRF, se um acidente será fatal?
-
-**Integrante 1 · ~1 min**
+### Slide 2 — Dá para prever, no acionamento da PRF, se um acidente será fatal? (~1 min)
 
 As rodovias federais registram cerca de 70 mil acidentes por ano atendidos pela PRF. Em 2025 foram 72.529.
 
@@ -60,9 +58,7 @@ Nossa pergunta é: com o que se sabe no momento em que a PRF é acionada — qua
 
 A aplicação é apoio à decisão: priorizar despacho e resgate e orientar fiscalização e obras. O modelo não serve para negar ou reduzir atendimento a ninguém.
 
-### Slide 3 — Canvas de abertura do projeto
-
-**Integrante 1 · ~1 min**
+### Slide 3 — Canvas de abertura do projeto (~1 min)
 
 Antes de qualquer código, fizemos o Canvas de abertura, que está no repositório como CANVAS.md e em imagem.
 
@@ -76,9 +72,9 @@ Destaco quatro blocos:
 
 — Riscos: vazamento, viés de seleção, viés geográfico, leitura causal indevida e uso para negar atendimento.
 
-### Slide 4 — 632 mil acidentes, um por linha, sem dados pessoais
+## Dados e análise exploratória
 
-**Integrante 1 · ~50 s**
+### Slide 4 — 632 mil acidentes, um por linha, sem dados pessoais (~50 s)
 
 Os dados são os microdados abertos da PRF, no arquivo “agrupados por ocorrência”: uma linha por acidente, 30 colunas e nenhum dado pessoal identificável.
 
@@ -88,9 +84,7 @@ As colunas cobrem tempo, local, via, clima, tipo e causa do acidente e as contag
 
 Sobre a procedência: o código baixa da página oficial da PRF. No ambiente em que rodamos, o Google Drive da PRF estava bloqueado, então usamos cópias públicas dos mesmos arquivos. O hash de cada um está registrado no manifest.json, e os de 2023 a 2025 conferem entre repositórios independentes.
 
-### Slide 5 — Acidentes sem vítimas saíram da base depois de 2015
-
-**Integrante 1 · ~1 min 10 s**
+### Slide 5 — Acidentes sem vítimas saíram da base depois de 2015 (~1 min 10 s)
 
 Este é o achado mais importante sobre a base.
 
@@ -104,11 +98,9 @@ Primeiro, o modelo vale para acidentes atendidos pela PRF, não para todos os ac
 
 Segundo, começamos o treino em 2019. E não foi só intuição: testamos 2017, 2019 e 2021 como início na validação, e 2019 teve o melhor F1-macro.
 
-Agora o [Integrante 2] mostra a análise exploratória.
+Com essa base definida, vamos à análise exploratória.
 
-### Slide 6 — Frontal e atropelamento: 28% fatais
-
-**Integrante 2 · ~50 s**
+### Slide 6 — Frontal e atropelamento: 28% fatais (~50 s)
 
 Na análise exploratória usamos só 2017 a 2024. O ano de 2025, que é o teste, ficou de fora, para nenhuma decisão ser tomada olhando para ele.
 
@@ -118,9 +110,7 @@ Medimos a associação de cada variável com a gravidade pelo V de Cramér, e o 
 
 Lembrando: isso é associação. O tipo descreve a dinâmica do acidente, não a sua causa.
 
-### Slide 7 — Hora, via e região também importam
-
-**Integrante 2 · ~1 min**
+### Slide 7 — Hora, via e região também importam (~1 min)
 
 O contexto também importa. O gráfico mostra a porcentagem de acidentes fatais por hora do dia em cada tipo de pista: a pista simples, em vermelho, tem a maior letalidade, com pico na madrugada.
 
@@ -130,9 +120,9 @@ Um dado curioso: com chuva a letalidade é menor que com céu claro. Uma explica
 
 Mais um ponto da EDA: causa do acidente e número de pessoas também têm associação forte, mas só são conhecidos depois do atendimento. Por isso ficam fora do modelo principal, como vou mostrar agora.
 
-### Slide 8 — Só entra o que se sabe no acionamento
+## Metodologia e código
 
-**Integrante 2 · ~1 min 10 s**
+### Slide 8 — Só entra o que se sabe no acionamento (~1 min 10 s)
 
 O cuidado central do projeto é o vazamento de dados.
 
@@ -150,9 +140,7 @@ Por isso definimos cenários de informação, todos em src/config.py:
 
 E temos um teste automatizado que falha se uma coluna de desfecho chegar ao modelo.
 
-### Slide 9 — Treino no passado, teste no futuro
-
-**Integrante 2 · ~1 min 10 s**
+### Slide 9 — Treino no passado, teste no futuro (~1 min 10 s)
 
 A divisão dos dados é temporal: o modelo aprende com o passado e é avaliado num ano que nunca viu.
 
@@ -170,9 +158,9 @@ O protocolo tem quatro etapas:
 
 Além disso, validação cruzada temporal com quatro folds anuais, intervalos de confiança por bootstrap e teste de McNemar entre os modelos.
 
-### Slide 10 — Cinco módulos, seis notebooks e testes
+### Slide 10 — Cinco módulos, seis notebooks e testes (~1 min 20 s)
 
-**Integrante 2 · ~1 min 20 s** · se quiserem, mostrem o repositório na tela durante este slide
+*Se possível, mostre o repositório na tela durante este slide.*
 
 O código está organizado em cinco módulos em src/, mais os testes.
 
@@ -186,9 +174,7 @@ O código está organizado em cinco módulos em src/, mais os testes.
 
 Os seis notebooks seguem as etapas pedidas e importam src/, sem duplicar código. Os 11 testes passam.
 
-### Slide 11 — Três modelos e uma métrica principal
-
-**Integrante 2 · ~1 min**
+### Slide 11 — Três modelos e uma métrica principal (~1 min)
 
 Comparamos três modelos, além de um classificador aleatório como piso:
 
@@ -202,11 +188,11 @@ A métrica principal, definida antes dos experimentos, é o F1-macro. Ela dá o 
 
 Como apoio, usamos a PR-AUC da classe Fatais, que mede o ranqueamento sem depender de limiar.
 
-Agora o [Integrante 3] apresenta os resultados.
+Com isso definido, vamos aos resultados.
 
-### Slide 12 — 0,561 — F1-macro do XGBoost
+## Resultados
 
-**Integrante 3 · ~30 s**
+### Slide 12 — 0,561 — F1-macro do XGBoost (~30 s)
 
 O resultado principal: no teste com os 72.529 acidentes de 2025, o XGBoost alcançou F1-macro de 0,561, com intervalo de confiança de 95% entre 0,555 e 0,566.
 
@@ -214,9 +200,7 @@ Para comparação, a Regressão Logística teve 0,543 e o classificador aleatór
 
 E um detalhe que mostra estabilidade: na validação de 2024 o XGBoost também teve 0,561.
 
-### Slide 13 — XGBoost lidera, por margem pequena
-
-**Integrante 3 · ~1 min**
+### Slide 13 — XGBoost lidera, por margem pequena (~1 min)
 
 Aqui estão todos os modelos no cenário A, no teste de 2025.
 
@@ -226,9 +210,7 @@ O Random Forest vem em seguida, com 0,551, e a Regressão Logística, com 0,543.
 
 O teste de McNemar mostra que as diferenças são estatisticamente significativas, mas precisamos ser honestos: o ganho sobre o baseline é pequeno, 1,8 ponto de F1-macro. A Regressão Logística continua competitiva e é mais interpretável.
 
-### Slide 14 — Acha 42% dos fatais, com 39% de precisão
-
-**Integrante 3 · ~1 min**
+### Slide 14 — Acha 42% dos fatais, com 39% de precisão (~1 min)
 
 Olhando para a classe que mais importa, a dos acidentes fatais:
 
@@ -236,9 +218,7 @@ Olhando para a classe que mais importa, a dos acidentes fatais:
 
 À direita, a matriz de confusão normalizada. A classe com feridos é bem reconhecida, com recall de 86%. A dificuldade está nas fronteiras: 51% dos acidentes fatais e 59% dos sem vítimas são previstos como “feridas”, que é a classe majoritária e mais heterogênea.
 
-### Slide 15 — O tipo de acidente faz a diferença
-
-**Integrante 3 · ~1 min**
+### Slide 15 — O tipo de acidente faz a diferença (~1 min)
 
 Os cenários de informação mostram de onde vem o desempenho.
 
@@ -250,9 +230,9 @@ Com a causa do acidente, o cenário C, o F1 sobe só para 0,576. O vazamento foi
 
 E testamos um split aleatório: o resultado foi praticamente igual ao temporal. Nesta base ele não inflou as métricas, mas o temporal continua sendo o protocolo correto, porque reproduz o uso real.
 
-### Slide 16 — O limite: fora de frontal e atropelamento
+## Interpretação e conclusões
 
-**Integrante 3 · ~1 min 10 s**
+### Slide 16 — O limite: fora de frontal e atropelamento (~1 min 10 s)
 
 O que o modelo aprendeu? A importância por permutação mostra um fator dominante: embaralhar o tipo de acidente derruba a PR-AUC de Fatais em 0,200. Depois vêm o número de veículos, o trecho da rodovia, a latitude, a hora e o uso do solo. O SHAP, que está no notebook 06, confirma.
 
@@ -262,9 +242,7 @@ Mas nesses dois tipos o modelo encontra 85% dos fatais; nos demais tipos, que so
 
 Lembrando sempre: importância explica o modelo, não as causas dos acidentes.
 
-### Slide 17 — Varia por UF; probabilidades a recalibrar
-
-**Integrante 3 · ~1 min**
+### Slide 17 — Varia por UF; probabilidades a recalibrar (~1 min)
 
 Investigamos vieses geográficos e temporais.
 
@@ -274,11 +252,9 @@ No tempo, o modelo é estável: o F1-macro foi 0,561 na validação de 2024 e no
 
 Um ponto importante para o uso prático: como treinamos as árvores com pesos de classe, as probabilidades do XGBoost superestimam a chance de acidente fatal. Para ranquear e classificar isso não atrapalha, porque o limiar foi ajustado, mas antes de comunicar o número como “risco” é preciso recalibrar. A Regressão Logística, treinada sem pesos, está bem calibrada.
 
-Passo para o [Integrante 1] com as conclusões.
+Para fechar, as conclusões.
 
-### Slide 18 — O que concluímos
-
-**Integrante 1 · ~50 s**
+### Slide 18 — O que concluímos (~50 s)
 
 Para concluir, quatro pontos:
 
@@ -290,9 +266,7 @@ Terceiro: o desempenho vem sobretudo do tipo de acidente. Só com contexto, o mo
 
 Quarto, do ponto de vista metodológico: separar cenários de informação e testar num ano futuro nos permitiu medir o vazamento e o viés de seleção em vez de supor.
 
-### Slide 19 — Limitações e ponte para o TCC
-
-**Integrante 1 · ~50 s**
+### Slide 19 — Limitações e ponte para o TCC (~50 s)
 
 As principais limitações:
 
@@ -308,22 +282,14 @@ Para o TCC, a pergunta é: integrar clima medido do INMET, dados da via do DNIT 
 
 Junto com isso: recalibrar as probabilidades, modelar o risco por trecho e hora e construir um painel para gestores.
 
-### Slide 20 — Perguntas?
+### Slide 20 — Perguntas? (~20 s)
 
-**Integrante 1 · ~20 s** · todos podem aparecer na câmera
-
-Era isso. Todo o projeto — código, os seis notebooks executados, o Canvas e o README com os resultados — está no repositório, cujo link está na tela e também no relatório técnico.
-
-Obrigado, professor.
-
-
-
-Tempo total estimado: cerca de 19 minutos (mínimo exigido: 15).
+Era isso. Em nome do grupo, obrigado. Todo o projeto — código, os seis notebooks executados, o Canvas e o README com os resultados — está no repositório, cujo link está na tela e também no relatório técnico.
 
 ---
 
-### Dicas de gravação
+## Dicas de gravação
 
-- Ensaiem uma vez com cronômetro: o mínimo exigido é 15 minutos.
-- Cada integrante deve aparecer falando (câmera ligada ou voz identificada).
-- Se o tempo passar de 20 minutos, encurtem os slides 10 e 15, não os resultados.
+- Ensaie uma vez com cronômetro antes de gravar.
+- Mantenha um ritmo calmo: o roteiro já tem folga sobre os 15 minutos.
+- Se passar de 20 minutos, encurte os slides 10 e 15, não os resultados.
